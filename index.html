@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            Cadastro de DEVs                        
+        </div>
+        <div class="title_desc">
+            Complete suas informações
+        </div>
+        <div class="campos">
+        <div class="campos1">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" required>
+        </div>
+            <div class="campos2">
+                <label for="">Sobrenome</label>
+            <input type="text" name="sobrenome">
+
+            </div>
+            
+        </div>
+        <div class="campos_mail">
+            <div class="mail">
+                 <label for="">E-mail</label>
+            </div>
+           <div class="corpo_mail">
+             <input type="email" name="email">
+           </div>
+           
+            
+        </div>
+        <div class="ladoAplicacao">
+            <div class="ladoAplicacao_title">
+                 De qual lado da aplicação você desenvolve?
+            </div>
+           <div class="ladoAplicacao_opcoes">
+            
+            <label for="">
+                <input type="radio" name="lado" value="frontend" checked>
+                Front-end            
+            </label>
+            <label for="">
+                 <input type="radio" name="lado" value="backend">
+                Back-end
+           </label>
+            <label for="">
+                <input type="radio" name="lado" value="fullstack">
+                Fullstack
+            </label>
+           </div>
+            
+        </div>
+        <div class="senioridade">
+            <div class="senioridade_title">
+                <label for="">Senioridade</label>
+            </div>
+            <div class="senioridade_opcoes">
+                <select name="nivel">
+                <option value="">Selecione</option>
+                <option value="nivel">Júnior</option>
+                <option value="nivel">Pleno</option>
+                <option value="nivel">Master</option>
+            </select>
+            </div>
+        </div>
+         <div class="tecnologias">
+               <div class="tecnologias_title">
+                Selecione as tecnologias que utiliza:
+               </div> 
+               <div class="tecnologias_opcoes">
+                <label for="">HTML</label>
+            <input type="checkbox" name="html">
+             <label for="">CSS</label>
+            <input type="checkbox" name="html">
+             <label for="">JavaScript</label>
+            <input type="checkbox" name="html">
+             <label for="">PHP</label>
+            <input type="checkbox" name="html">
+             <label for="">C#</label>
+            <input type="checkbox" name="html">
+             <label for="">Python</label>
+            <input type="checkbox" name="html">
+             <label for="">Java</label>
+            <input type="checkbox" name="html">
+               </div>
+            
+            </div>
+            
+            <div class="mensagem_title">
+                Conte um pouco mais da sua experiência:
+            </div>
+            <div class="mensagem_area">
+                <textarea name="mensagem" id="mensagem"></textarea>
+            </div>
+            <div class="btn">
+                <button>Concluido</button>
+            </div>
+            
+            
+
+            
+        </div>
+        
+    </div>
+</body>
+</html>

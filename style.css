@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.container{
+    background-color: #F0F8FF;
+    width: 600px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: #59429d;
+   
+   
+}
+.title_desc{
+    text-align: center;
+    color: #59429d;
+}
+.title{
+    color: #59429d;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+   
+}
+.campos{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #59429d;
+    
+
+}
+.campos1, .campos2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.campos_mail{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+     font-weight: bold;     
+     width: 34vw;
+     color: #59429d;
+     
+     
+   
+    
+}
+.campos_mail input, .campos input{
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    border: none;
+    outline: none;
+    
+}
+.ladoAplicacao,.senioridade,.tecnologias,.mensagem_title, .mensagem_area{
+    width: 34vw;
+}
+
+.ladoAplicacao_title, .senioridade_title,.tecnologias_title,.mensagem_title{
+     font-weight: bold;
+     color: #59429d;
+}
+.ladoAplicacao_title,.senioridade,.tecnologias{
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+.ladoAplicacao_opcoes{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+   
+   
+}
+.tecnologias_opcoes{
+    padding-top: 10px;
+}
+.mensagem_title,.btn{
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+.mensagem_area{
+    padding-left: 20px;
+}
+textarea{
+    width: 420px;
+    height: 120px;
+    border-radius: 5px;
+    outline: 0;
+    resize: none;
+    border: none;
+    
+}
+.btn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #380b61;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
